@@ -1,15 +1,13 @@
 #include <stdio.h>
 int main(){
     int num;
-    printf("Digite valor inicial do loop.\n");
+    printf("Digite o valor( maio que 0) inicial para o loop: \n");
     scanf("%d",&num);
-    do
+
+    for (num == 1; num <= 20; num++)
     {
         printf("num: %d\n",num);
-        num++;
-   
-    } while (num == 100);
+    }
     
-       
     return 0;
 }
