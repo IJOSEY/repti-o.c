@@ -27,13 +27,7 @@ int main (){
    } while (num % 2 != 0);
    printf("Saindo do programa....!\n");*/
    //for teste !
-   printf("Digite o númer do qual você deseja a tabuada de zero a dez!\n");
-   scanf("%d",&num);
- 
-   for (i = 0; i <=10; i++)
-   {
-    printf("%d x %d = %d\n", i, num, i * num);
-   }
+   
    
     return 0;
 }
