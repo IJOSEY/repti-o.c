@@ -2,9 +2,9 @@
 int main() {
     int num, num2;
     char letra;
-    for ( num = 1; num <= 5; num++)
+    for ( num = 1; num <= 10; num++)
     {
-        letra = 'H';
+        letra = 'A';
        for(num2 = 1; num2 <= num; num2++)
        {
          printf("%c ",letra);
